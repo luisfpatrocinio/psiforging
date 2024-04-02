@@ -1,0 +1,20 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Game","order":2,"path":"folders/Game.yy",},
+    {"name":"Bodyparts Sprites","order":6,"path":"folders/PsiforgingSystem/Bodyparts Sprites.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"oButton","order":1,"path":"objects/oButton/oButton.yy",},
+    {"name":"oPsiforgeButton","order":4,"path":"objects/oPsiforgeButton/oPsiforgeButton.yy",},
+    {"name":"rmGame","order":2,"path":"rooms/rmGame/rmGame.yy",},
+    {"name":"rmGameInit","order":1,"path":"rooms/rmGameInit/rmGameInit.yy",},
+    {"name":"oBodyPartButton","order":5,"path":"objects/oBodyPartButton/oBodyPartButton.yy",},
+    {"name":"fntText","order":4,"path":"fonts/fntText/fntText.yy",},
+    {"name":"Goals","order":3,"path":"notes/Goals/Goals.yy",},
+    {"name":"sButton","order":3,"path":"sprites/sButton/sButton.yy",},
+    {"name":"oGame","order":3,"path":"objects/oGame/oGame.yy",},
+    {"name":"sBoneIcon","order":1,"path":"sprites/sBoneIcon/sBoneIcon.yy",},
+    {"name":"Psiforging","order":2,"path":"scripts/Psiforging/Psiforging.yy",},
+    {"name":"sUndefinedIcon","order":2,"path":"sprites/sUndefinedIcon/sUndefinedIcon.yy",},
+  ],
+}

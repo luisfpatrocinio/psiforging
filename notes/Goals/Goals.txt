@@ -1,0 +1,19 @@
+• Usuário pode selecionar um organ, muscle, bone, soul, etc
+• Após selecionar, irá iniciar o treinamento, permitindo upar a parte selecionada.
+• Por ser uma metidação, ele também treina costas e músculos da perna além da parte selecionada.
+
+# Meditação: treina parte selecionada + costas + músculos da perna.
+
+# Milestones: Desbloqueia após atingir um certo nível em diferentes partes.
+Força Hercúlea: desbloqueia após ter 100 níveis em todas as partes de músculos.
+
+Fluxo:
+• Jogador abre a janela de Psiforging.
+• Jogador pode consultar bodyparts através de uma lista.
+• Ao clica numa bodypart, o jogador pode ver as seguintes informações:
+
+Nome, Icone, Descrição
+[Slots Cyberneticos], Nível, Training(exp)
+Training Results: o que treinar aquela parte proporciona
+Current Training: o que essa parte está proporcionando
+Botão de Psiforge: Ao passar o mouse, exibe informação: "Clicking this button starts the Psiforging process on the associated bodypart. Then whenever you gain xp towward your core stats, a portion of that xp converts into xp for this bodypart."

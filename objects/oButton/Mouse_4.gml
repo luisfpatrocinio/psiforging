@@ -1,0 +1,2 @@
+/// @description Perform onClick()
+onClick();

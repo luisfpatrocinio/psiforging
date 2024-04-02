@@ -1,0 +1,49 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "Psiforging",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Game","folderPath":"folders/Game.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PsiforgingSystem","folderPath":"folders/PsiforgingSystem.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bodyparts Sprites","folderPath":"folders/PsiforgingSystem/Bodyparts Sprites.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.11.1.129",
+  },
+  "resources": [
+    {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},},
+    {"id":{"name":"oPsiforgeButton","path":"objects/oPsiforgeButton/oPsiforgeButton.yy",},},
+    {"id":{"name":"sMuscleIcon","path":"sprites/sMuscleIcon/sMuscleIcon.yy",},},
+    {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+    {"id":{"name":"rmGameInit","path":"rooms/rmGameInit/rmGameInit.yy",},},
+    {"id":{"name":"oGameInit","path":"objects/oGameInit/oGameInit.yy",},},
+    {"id":{"name":"oBodyPartButton","path":"objects/oBodyPartButton/oBodyPartButton.yy",},},
+    {"id":{"name":"fntText","path":"fonts/fntText/fntText.yy",},},
+    {"id":{"name":"Goals","path":"notes/Goals/Goals.yy",},},
+    {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},},
+    {"id":{"name":"sBoneIcon","path":"sprites/sBoneIcon/sBoneIcon.yy",},},
+    {"id":{"name":"Psiforging","path":"scripts/Psiforging/Psiforging.yy",},},
+    {"id":{"name":"sUndefinedIcon","path":"sprites/sUndefinedIcon/sUndefinedIcon.yy",},},
+    {"id":{"name":"oPsiforgeMenu","path":"objects/oPsiforgeMenu/oPsiforgeMenu.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rmGameInit","path":"rooms/rmGameInit/rmGameInit.yy",},},
+    {"roomId":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},},
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
