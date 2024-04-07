@@ -1,14 +1,21 @@
 {
   "FolderOrderSettings": [
+    {"name":"Extensions","order":4,"path":"folders/Extensions.yy",},
+    {"name":"GMLive","order":1,"path":"folders/Extensions/GMLive.yy",},
     {"name":"Game","order":2,"path":"folders/Game.yy",},
     {"name":"Bodyparts Sprites","order":6,"path":"folders/PsiforgingSystem/Bodyparts Sprites.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oButton","order":1,"path":"objects/oButton/oButton.yy",},
+    {"name":"sSkinIcon","order":3,"path":"sprites/sSkinIcon/sSkinIcon.yy",},
     {"name":"oPsiforgeButton","order":4,"path":"objects/oPsiforgeButton/oPsiforgeButton.yy",},
     {"name":"rmGame","order":2,"path":"rooms/rmGame/rmGame.yy",},
+    {"name":"GMLive_noDeactivate","order":2,"path":"scripts/GMLive_noDeactivate/GMLive_noDeactivate.yy",},
     {"name":"rmGameInit","order":1,"path":"rooms/rmGameInit/rmGameInit.yy",},
+    {"name":"GMLive_notOnce","order":3,"path":"scripts/GMLive_notOnce/GMLive_notOnce.yy",},
+    {"name":"GMLiveAPI","order":4,"path":"scripts/GMLiveAPI/GMLiveAPI.yy",},
     {"name":"oBodyPartButton","order":5,"path":"objects/oBodyPartButton/oBodyPartButton.yy",},
+    {"name":"GMLive_fallback","order":1,"path":"extensions/GMLive_fallback/GMLive_fallback.yy",},
     {"name":"fntText","order":4,"path":"fonts/fntText/fntText.yy",},
     {"name":"Goals","order":3,"path":"notes/Goals/Goals.yy",},
     {"name":"sButton","order":3,"path":"sprites/sButton/sButton.yy",},
@@ -16,5 +23,9 @@
     {"name":"sBoneIcon","order":1,"path":"sprites/sBoneIcon/sBoneIcon.yy",},
     {"name":"Psiforging","order":2,"path":"scripts/Psiforging/Psiforging.yy",},
     {"name":"sUndefinedIcon","order":2,"path":"sprites/sUndefinedIcon/sUndefinedIcon.yy",},
+    {"name":"obj_gmlive","order":6,"path":"objects/obj_gmlive/obj_gmlive.yy",},
+    {"name":"sNetIcon","order":4,"path":"sprites/sNetIcon/sNetIcon.yy",},
+    {"name":"sEnergyIcon","order":5,"path":"sprites/sEnergyIcon/sEnergyIcon.yy",},
+    {"name":"GMLiveAPI_js","order":5,"path":"scripts/GMLiveAPI_js/GMLiveAPI_js.yy",},
   ],
 }

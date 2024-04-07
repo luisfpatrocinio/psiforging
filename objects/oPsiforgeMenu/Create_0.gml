@@ -1,4 +1,7 @@
 /// @description 
+#macro SPAC_BETWEEN_BUTTONS 34
+
+live_auto_call
 
 // Taxa de progresso da aparição
 appearingProgress = 0;
@@ -29,17 +32,17 @@ cancel = function() {
 psiforgeButton = instance_create_depth(960/2, 540*2/3, depth - 1, oPsiforgeButton);
 
 // BodyPart List
-bodyParts = [
-  new RightClavicle(),
-  new BackMuscles()
-];
+bodyParts = loadBodyPartsDatabase();
 
+// List that stores instances of the buttons.
 bodyPartsButtonsList = ds_list_create();
 
 // Instantiate body parts
 array_foreach(bodyParts, function(_item, _index) {
-  var _spacBetweenButtons = 34;
-  var _bpbtn = instance_create_depth(960/2, 540/3 + _spacBetweenButtons * _index, depth - 1, oBodyPartButton)
+  var _bpbtn = instance_create_depth(960 - 192/2, 16 + SPAC_BETWEEN_BUTTONS * _index, depth - 1, oBodyPartButton)
   _bpbtn.myBodyPart = bodyParts[_index];
   ds_list_add(bodyPartsButtonsList, _bpbtn);
 });
+
+// Page Scroll
+pageScroll = 0;

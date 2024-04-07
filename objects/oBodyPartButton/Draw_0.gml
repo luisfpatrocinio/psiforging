@@ -5,8 +5,13 @@ event_inherited();
 if (is_undefined(myBodyPart)) exit;
 
 // Draw Icon
+// Convert sprite string to sprite asset.
+if (is_string(myBodyPart.sprite)) myBodyPart.sprite = asset_get_index(myBodyPart.sprite);
+
 var _border = 4;
-draw_sprite(myBodyPart.sprite, 0, bbox_left + sprite_get_width(myBodyPart.sprite) / 2 + _border, y);
+if (sprite_exists(myBodyPart.sprite)) {
+  draw_sprite(myBodyPart.sprite, 0, bbox_left + sprite_get_width(myBodyPart.sprite) / 2 + _border, y);
+}
 
 // Draw Text
 draw_set_font(fntText);

@@ -1,0 +1,30 @@
+key,name,,desc,sprite
+torsoSkin,Torso Skin,3,,sSkinIcon
+backMuscles,Back Muscles,2,Muscles of the character's back.,sMuscleIcon
+chestMuscles,Chest Muscles,2,,sMuscleIcon
+hipMuscles,Hip Muscles,11,,sMuscleIcon
+abdominalMuscles,Abdominal Muscles,2,,sMuscleIcon
+rightClavicle,Right Clavicle,1,Bone from the character's right collarbone.,sBoneIcon
+leftClavicle,Left Clavicle,1,,sBoneIcon
+sternum,Sternum,1,,sBoneIcon
+ribcage,Ribcage,1,,sBoneIcon
+spine,Spine,2,,sBoneIcon
+pelvis,Pelvis,1,,sBoneIcon
+thymus,Thymus,1,,sSkinIcon
+heart,Heart,2,,sSkinIcon
+liver,Liver,1,,sSkinIcon
+lungs,Lungs,2,,sSkinIcon
+gallBladder,Gall Bladder,1,,sSkinIcon
+urinaryBladder,Urinary Bladder,1,,sSkinIcon
+leftKidney,Left Kidney,1,,sSkinIcon
+rightKidney,Right Kidney,1,,sSkinIcon
+pancreas,Pancreas,1,,sSkinIcon
+largeIntestines,Large Intestines,1,,sSkinIcon
+smallIntestines,Small Intestines,1,,sSkinIcon
+stomach,Stomach,1,,sSkinIcon
+dantian,Dantian,0,,sEnergyIcon
+meridianVeins,Meridian Veins,0,,sNetIcon
+meridianArtery,Meridian Artery,0,,sNetIcon
+,,,,
+,,,,
+,,,,
