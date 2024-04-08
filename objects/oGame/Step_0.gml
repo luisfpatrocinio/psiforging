@@ -10,3 +10,5 @@ if (_keyMenu) {
     }
   }
 }
+
+global.isPsiforging = global.psiforgingBodyPart != undefined;

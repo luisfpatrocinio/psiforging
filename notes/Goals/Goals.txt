@@ -1,6 +1,7 @@
 • Usuário pode selecionar um organ, muscle, bone, soul, etc
 • Após selecionar, irá iniciar o treinamento, permitindo upar a parte selecionada.
-• Por ser uma metidação, ele também treina costas e músculos da perna além da parte selecionada.
+• Por ser uma metidação, ele também treina costas e músculos da perna além da 
+parte selecionada.
 • Bodyparts podem ficar injureds
 
 # Meditação: treina parte selecionada + costas + músculos da perna.

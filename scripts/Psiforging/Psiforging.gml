@@ -31,13 +31,16 @@ function loadBodyPartsDatabase() {
   for (var i = 1; i < hh; i++) {
     var _thisBodyPart = new BodyPart();
     
+    // Conferir se a key é válida:
+    var _thisKey = ds_grid_get(fileGrid, 0, i);
+    
+    // Ignore column if it's empty
+    if (_thisKey == "") continue;
+    
+    
     // Alimentar essa bodypart com o valor de cada coluna.
     for (var j = 0; j < ww; j++) {
-      var _thisColumn = ds_grid_get(fileGrid, j, 0);
-      
-      // Ignore column if it's empty
-      if (_thisColumn == "") continue;
-      
+      var _thisColumn = ds_grid_get(fileGrid, j, 0);      
       var _thisValue = ds_grid_get(fileGrid, j, i);
       _thisBodyPart[$ _thisColumn] = _thisValue;
       show_debug_message("Coluna selecionada: {0}\nValor atribuído: {1}", _thisColumn, _thisValue);
@@ -51,14 +54,24 @@ function loadBodyPartsDatabase() {
   return databaseArray
 }
 
-function BackMuscles() : BodyPart() constructor {
-  name = "Back Muscles";
-  desc = "Muscles of the character's back.";
-  sprite = sMuscleIcon;
+///@func getBodyPartByKey(_bodyPartKey)
+///@desc Obtém a estrutura da parte do corpo a partir de uma key
+///@param {string} _bodyPartKey
+///@returns BodyPart
+function getBodyPartByKey(_bodyPartKey) {
+  bodyPartKey = _bodyPartKey;
+  var _bps = array_filter(global.bodyParts, function(_item) {
+    return _item.key == bodyPartKey
+  });
+  if (array_length(_bps) > 0) {
+    return _bps[0]; 
+  }
 }
 
-function RightClavicle() : BodyPart() constructor {
-  name = "Right Clavicle";
-  desc = "Bone from the character's right collarbone.";
-  sprite = sBoneIcon;
+///@func getPlayerPsiforgingStatusByKey(_bodyPartKey)
+///@desc Obtém a estrutura da parte do corpo a partir de uma key
+///@param {string} _bodyPartKey
+function getPlayerPsiforgingStatusByKey(_bodyPartKey) {
+  bodyPartKey = _bodyPartKey;
+  return oGame.psiforgingStatus[$ bodyPartKey];
 }

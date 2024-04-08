@@ -1,2 +1,2 @@
 /// @description 
-buttonText = !global.isPsiforging ? "Psiforge" : "Cancel"
+buttonText = !isPsiforgingThisPart() ? "Psiforge" : "Cancel";

@@ -28,6 +28,21 @@ draw_rectangle_color(_pos[0], _pos[1], _pos[2], _pos[3], _window.c, _window.c, _
 if (selectedBodyPart != noone) {
   var _bodyPart = selectedBodyPart.myBodyPart;
   draw_set_halign(fa_left);
-  draw_text(32, 540*2/3, _bodyPart.name);
-  draw_text(32, 540*2/3 + 32, _bodyPart.desc);
+  draw_set_valign(fa_top);
+  
+  // Name
+  draw_text(32, 540/2, _bodyPart.name);
+  
+  // Desc
+  draw_text_ext(32, 540/2 + 32, _bodyPart.desc, 16, gui_width/2);
+  
+  var _exp = variable_struct_get(oGame.psiforgingStatus[$ _bodyPart.key], "training");
+  
+  // Training
+  var _bx = 128;
+  var _by = 540/2;
+  var _bw = 64;
+  var _bh = 16;
+  draw_healthbar(_bx - _bw/2, _by - _bh/2, _bx + _bw/2, _by + _bh/2,
+    _exp, c_black, c_orange, c_orange, 0, true, true);
 }
