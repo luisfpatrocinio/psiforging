@@ -75,3 +75,8 @@ function getPlayerPsiforgingStatusByKey(_bodyPartKey) {
   bodyPartKey = _bodyPartKey;
   return oGame.psiforgingStatus[$ bodyPartKey];
 }
+  
+
+function getBodiesPartFromTrainingType() {
+  return ["backMuscles", "legMuscles"]
+}

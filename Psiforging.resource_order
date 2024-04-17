@@ -12,6 +12,7 @@
     {"name":"rmGame","order":2,"path":"rooms/rmGame/rmGame.yy",},
     {"name":"GMLive_noDeactivate","order":2,"path":"scripts/GMLive_noDeactivate/GMLive_noDeactivate.yy",},
     {"name":"rmGameInit","order":1,"path":"rooms/rmGameInit/rmGameInit.yy",},
+    {"name":"oActionButton","order":5,"path":"objects/oActionButton/oActionButton.yy",},
     {"name":"GMLive_notOnce","order":3,"path":"scripts/GMLive_notOnce/GMLive_notOnce.yy",},
     {"name":"GMLiveAPI","order":4,"path":"scripts/GMLiveAPI/GMLiveAPI.yy",},
     {"name":"oBodyPartButton","order":5,"path":"objects/oBodyPartButton/oBodyPartButton.yy",},
